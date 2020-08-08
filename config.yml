@@ -1,0 +1,68 @@
+malwaredomainlist:
+  url : http://www.malwaredomainlist.com/hostslist/hosts.txt
+  format : ip domain
+
+StevenBlack:
+  url : https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
+  format : ip domain
+
+ad_simple:
+  url : https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+  format: domain
+
+justdomain:
+  url : https://mirror1.malwaredomains.com/files/justdomains
+  format : domain
+
+cameleon:
+  url : http://sysctl.org/cameleon/hosts
+  format : ip domain
+
+simple_tracking:
+  url : https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+  format : domain
+
+pihole-blacklist:
+  url : https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/list.txt
+  format : domain
+
+yt_ads:
+  url : https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list
+  format : domain
+
+the-big-list-of-hacked-malware-web-site:
+  url : https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hacked-domains.list
+  format : domain
+
+malware-domain-list:
+  url : https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/MalwareDomainList.com/master/domains.list
+  format : domain
+
+sophos:
+  url : https://raw.githubusercontent.com/austinheap/sophos-xg-block-lists/master/malware-domain-list.txt
+  format : domain
+
+openpish:
+  url : https://openphish.com/feed.txt
+  format : url
+
+blackbook:
+  url : https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt
+  format : domain
+
+phishing.database:
+  url : https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-ACTIVE.txt
+  format : domain
+
+blockconvert:
+  url : https://raw.githubusercontent.com/mkb2091/blockconvert/master/output/domains.txt
+  format : domain
+
+dbl.oisd.nl:
+  url : https://dbl.oisd.nl/
+  format : domain
+
+dblmobile.oisd.nl:
+  url : https://dblmobile.oisd.nl/
+  format : domain
+#!!! star
