@@ -24,8 +24,15 @@ if __name__ == "__main__":
     p = Pool()
     p.starmap(get_blacklist, config.items())
 
+    tmp = []
+    for b in glob("blacklists/*.txt"):
+        with open(b, "r") as input_file:
+            data=input_file.read()
+            lines = data.splitlines()
+            tmp.extend(lines)
+
+    tmp = sorted(set(tmp))
+
     with open("blacklist.txt", "w") as output_file:
-        for b in glob("blacklists/*.txt"):
-            with open(b, "r") as input_file:
-                data=input_file.read()
-                output_file.write(data)
+        data = "\n".join(tmp)
+        output_file.write(data)
