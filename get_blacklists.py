@@ -31,6 +31,11 @@ if __name__ == "__main__":
             lines = data.splitlines()
             tmp.extend(lines)
 
+    with open("local.txt", "r") as input_file:
+        data = input_file.read()
+        lines = data.splitlines()
+        tmp.extend(lines)
+
     tmp = sorted(set(tmp))
 
     with open("blacklist.txt", "w") as output_file:
