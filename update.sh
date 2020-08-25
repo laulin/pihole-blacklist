@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+TLDEXTRACT_CACHE="."
 
 # get
 python3 get_blacklists.py
