@@ -19,7 +19,7 @@ def get_blacklist(name, parameters):
 
 if __name__ == "__main__":
     with open("config.yml") as f:
-        config = yaml.load(f, Loader=yaml.FullLoader)
+        config = yaml.load(f, Loader=yaml.CBaseLoader)
 
     p = Pool()
     p.starmap(get_blacklist, config.items())
