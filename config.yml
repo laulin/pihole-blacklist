@@ -26,10 +26,6 @@ pihole-blacklist:
   url : https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/list.txt
   format : domain
 
-yt_ads:
-  url : https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list
-  format : domain
-
 the-big-list-of-hacked-malware-web-site:
   url : https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hacked-domains.list
   format : domain
@@ -65,4 +61,45 @@ dbl.oisd.nl:
 dblmobile.oisd.nl:
   url : https://dblmobile.oisd.nl/
   format : domain
+
+zerodot1.coiner:
+  url : https://zerodot1.gitlab.io/CoinBlockerLists/list.txt
+  format : domain
+
+zerodot1.coiner.list:
+  url : https://zerodot1.gitlab.io/CoinBlockerLists/list.txt
+  format : domain
+
+zerodot1.coiner.list.browser:
+  url : https://zerodot1.gitlab.io/CoinBlockerLists/list_browser.txt 
+  format : domain
+
+zerodot1.coiner.list.optional:
+  url : https://zerodot1.gitlab.io/CoinBlockerLists/list_optional.txt 
+  format : domain
+
+crazymax:
+  url : https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+  format : ip domain
+
+BBcan:
+  url : https://gist.githubusercontent.com/BBcan177/4a8bf37c131be4803cb2/raw/343ff780e15205b4dd0de37c86af34cfb26b2fbe/MS-2
+  format : domain
+
+crazymax:
+  url : https://adaway.org/hosts.txt
+  format : ip domain
+
+firebog:
+  url : https://v.firebog.net/hosts/AdguardDNS.txt
+  format : domain
+
+anudeep:
+  url : https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+  format : ip domain
+
+bigdargon:
+  url : https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
+  format : ip domain
+
 #!!! star
