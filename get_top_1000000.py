@@ -8,7 +8,13 @@ import multiprocessing
 def scrap_stuffgate(index):
     url = "http://stuffgate.com/stuff/website/top-{}-sites".format(index)
     print(url)
-    page = get_list(url)
+    get = True
+    while get:
+        try:
+            page = get_list(url)
+            get = False
+        except:
+            pass
     domains = re.findall(r'<td><a href=.+?target=.+>(.+)</a></td>', page)
     return (index, domains)
 
